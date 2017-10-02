@@ -21,7 +21,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Escribe tu edad y pulsa la edad para calcular tu edad CANINA"
+        android:text="@string/instruction"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -29,18 +29,20 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
+        android:id="@+id/age_edit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Edad" />
+        android:hint="@string/edit_text_hint" />
 
     <Button
         android:id="@+id/main_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Este es un boton" />
+        android:text="@string/main_activity_button_text" />
 
     <TextView
         android:id="@+id/answer_text"
+        android:text="@string/result_age"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="20sp" />

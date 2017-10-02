@@ -1,4 +1,10 @@
 <resources>
-    <string name="app_name">Ya soy programador Android</string>
+    <string name="app_name">Mi edad Canina</string>
     <string name="action_settings">Settings</string>
+    <string name="instruction">Escribe tu edad y pulsa la edad para calcular tu edad CANINA</string>
+    <string name="result_age">Aqui podras ver tu edad si fueras un perro</string>
+    <string name="edit_text_hint">Edad</string>
+    <string name="main_activity_button_text">Pulsame!</string>
+    <string name="result">Si fueras perro tu edad, tu edad seria de: %s </string>
+    <string name="error_message">Por favor inserta un numero entero</string>
 </resources>
